@@ -2640,6 +2640,14 @@ input, select, textarea {
 		margin-left: -1em;
 		padding-left: 0;
 	}
+		ul.actions.bottomcontact {
+			-moz-justify-content: center;
+			-webkit-justify-content: center;
+			-ms-justify-content: center;
+			justify-content: center;
+			width: 100%;
+			margin-left: 0;
+		}
 
 		ul.actions li {
 			padding: 0 0 0 1em;
@@ -3490,7 +3498,7 @@ input, select, textarea {
 			max-width: 95%;
 			padding: 6em;
 			position: relative;
-			text-align: right;
+			text-align: middle;
 			vertical-align: middle;
 			z-index: 1;
 		}
@@ -4109,3 +4117,14 @@ input, select, textarea {
 					}
 
 	}
+
+	/* custom 
+	div.bottomcontact {
+		text-align: center;
+	}
+
+	ul.bottomactions {
+		display: inline-block;
+		text-align: left;
+	  }
+	  */
